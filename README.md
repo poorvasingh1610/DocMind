@@ -42,3 +42,13 @@ It allows users to upload a document and ask questions, and the system answers b
 ### 1. Start Ollama
 ```bash
 ollama serve
+### 2. Pull the model
+```bash
+ollama pull llama3
+
+Install dependencies
+pip install -r requirements.txt
+
+Run the application
+streamlit run app.py
+
